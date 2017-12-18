@@ -174,10 +174,10 @@
 }
 .c2heading {
 	text-transform: uppercase;
-	font-size: 36px;
+	font-size: 46px;
 	color: #d5441c;
 	padding: 2%;
-	font-family: serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .c2text {
 	width: 80%;
@@ -214,7 +214,7 @@
 .checked {
     color: rgba(0,0,0,0.7);
 }
-.prodcont {float: right;width: 97%;}
+.prodcont {float: right;width: 97%;margin-bottom: 5%;}
 .prodtitle {
     font-weight: 600;
     margin: 3% 0 3% 0;
@@ -232,12 +232,17 @@
 	font-style: italic;
 	font-size: 12px;
 }
-.share {width: 100%;position: absolute;top: 10%;display: none;}
+.share {
+	width: 100%;
+	position: absolute;
+	display: none;
+	padding: 21% 0 22% 0;
+	background-color: rgba(80,80,80,0.6);
+}
 /* fallback */
 div.block:hover .share{
 	display: block;
-
-}
+	}
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;

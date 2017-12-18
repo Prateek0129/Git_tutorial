@@ -73,8 +73,7 @@
 }
 #search {
 	padding: 2%;
-	max-width: 80%;
-	float: right;
+	width: 100%;
 }
 #searchbox {
 	position: relative;
@@ -86,7 +85,10 @@
 	left: 85%;
 	top: 8%;
 }
-#body {margin-top: 3%;}
+#body {
+	margin-top: 3%;
+	display: inline-block;
+}
 #sidebox {
 	width: 17%;
 	display: inline-block;
@@ -191,12 +193,12 @@
 }
 .block {
 	float: left;
-	width: 31%;
+	width: 30%;
 	text-align: center;
 	position: relative;
 }
 .leftmarginblock {
-	margin-left: 3%;
+    margin-left: 5%;
 }
 .block  img {
 	width: 100%;
@@ -326,3 +328,72 @@ div.block:hover .share{
     display: inline-block;
     margin-top: 4%;
 }
+#footer {
+	display: block;
+}
+#footerbg {
+	background-color: #303e48;
+    height: 70px;
+}
+#footermenu {
+    width: 1150px;
+    margin: 0 auto;
+}
+#footerlist {
+	display: inline-block;
+	width: 55%;
+	margin-left: 15%;
+	margin-top: 2%;
+}
+#footerlist ul {
+	list-style-type: none;
+}
+#footerlist li {
+	float: left;
+	display: block;
+	padding: 1% 6% 1% 0%;
+	color: white;
+}
+#emailbox{
+	position: relative;
+	float: right;
+	width: 30%;
+	margin-top: 2%;
+}
+#subbutton {
+  color: #fff;
+  background-color: rgba(224,198,182,0.8);
+  font-weight: bold;
+  font-size: 16px;
+  position: absolute;
+  left: 69%;
+  border: none;
+  top: 0;
+  padding: 2%;
+ }
+#emailbox input::placeholder {
+  color: rgba(80,80,80,0.2);
+  font-style: italic;
+  font-size: 16px;
+}
+#address {
+	height: 120px;
+	background: rgba(224,198,182,0.1);
+}
+.topdec {
+	font-weight: bold;
+	text-decoration: none;
+}
+#socialicons {
+
+}
+#tothetop {display: inline-block;position: relative;width: 13%;}
+#tothetoptext {position: absolute;top: 32%;left: 35%;}
+#addbox {
+	width: 1150px;
+	margin: 0 auto;
+}
+#footerlogo {
+	display: inline-block;
+}
+#footerlogo img {width: 50%;margin-top: 20%;}
